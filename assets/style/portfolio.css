@@ -1,0 +1,88 @@
+body {
+    background: -moz-linear-gradient(top, #000000 0%, #000000 28%, #226042 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #000000 0%,#000000 28%,#226042 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #000000 0%,#000000 28%,#226042 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#226042',GradientType=0 );
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg-light {
+    background-color: black!important;
+    margin-left: 70px;
+}
+
+.nav-link {
+    color: white!important;
+    font-family: abel!important;
+    font-size: 25px!important;
+    padding-right: 20px!important;
+}
+
+.nav-link:hover {
+    color: red!important;
+}
+
+#contact-side {
+    margin-left: 1000px;
+}
+
+.card-body {
+    background-color: black;
+    font-family: abel;
+    color: white;
+    font-size: 12px;
+}
+
+.card-title {
+    font-size: 35px;
+    font-style: italic;
+    color: white;
+}
+
+.row {
+    margin-top: 100px;
+}
+
+.col-md-3 {
+    position: relative;
+    z-index: 10;
+}
+
+.github-pic {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: gray;
+    border-color: black;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: rgb(255, 0, 0);
+    border-color: black;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.btn {
+    margin-top: 15px;
+    color: white;
+    font-family: abel;
+    background-color: black;
+    font-size: 20px;
+}
+
+.btn:hover {
+    color: red;
+}
+
+

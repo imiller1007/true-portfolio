@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Lobster|Teko" rel="stylesheet">    
+    <link rel="stylesheet" href="./assets/style/portfolio.css">
+    <link rel="stylesheet" href="./assets/style/particles.css">
+    <link rel="icon" href="assets/images/newlogo-hovered.png">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <title>Portfolio of Ian Miller</title>
+</head>
+<body>
+    <!--Nav Bar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+        <a class="navbar-brand" href="./index.html"><img src="./assets/images/newlogo.png" onmouseover="this.src='./assets/images/newlogo-hovered.png'" onmouseout="this.src='./assets/images/newlogo.png'" alt="my logo" width="75px" height="75px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="./about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                </li>
+                
+                <li class="nav-item" id="contact-side">
+                  <a class="nav-link" target="_blank" href="https://github.com/imiller1007"><img src="assets/images/mark-github (1).png" id="ghcontact" onmouseover="this.src='./assets/images/mark-github (1)-hovered.png'" onmouseout="this.src='assets/images/mark-github (1).png'" width="50px" height="50px"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/ian-miller-webdeveloper/"><img src="assets/images/linkedin-white.png" id="licontact" onmouseover="this.src='assets/images/linkedin-white-hovered.png'" onmouseout="this.src='assets/images/linkedin-white.png'" width="50px" height="50px"></a>
+                </li>
+                <li class="nav-item">
+                    <button class="btn" data-clipboard-text="ianmillerwd@yahoo.com">
+                        ianmillerwd@yahoo.com
+                    </button>
+                </li>
+              </ul>
+        </div>
+    </nav>
+
+    <!--Container-->
+    <div class="container-fluid">
+
+        <div class="row" id="particles-js">
+
+            <div class="col-md-1"></div>
+            <div class="col-md-3">
+                <div class="card" style="width: 24rem;">
+                    <a target="_blank" href="https://kevinthomaskane.github.io/CHARToppers"><img class="card-img-top" src="https://portfolio-ktk.herokuapp.com/toppers.gif" alt="Card image cap"></a>
+                    <div class="card-body">
+                        <a target="_blank" href="https://kevinthomaskane.github.io/CHARToppers"><h5 class="card-title">CHARToppers</h5></a>
+                        <p class="card-text">Search the top charts and add songs to your personal favorites, look up lyrics, and share with the community. Uses 3 different APIs, Javascript, JQuery, Ajax, Materialize, local storage, and Firebase.</p>
+                        <a target="_blank" href="https://github.com/kevinthomaskane/CHARToppers" class="btn btn-primary"><img src="./assets/images/mark-github (1).png" class="github-pic">GitHub Page</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                    <div class="card" style="width: 24rem;">
+                        <a target="_blank" href="https://roastr-app.herokuapp.com/"><img class="card-img-top" src="https://media.giphy.com/media/3nb60gI3xv4LppSOjy/giphy.gif" alt="Card image cap"></a>
+                        <div class="card-body">
+                            <a target="_blank" href="https://roastr-app.herokuapp.com/"><h5 class="card-title">Roastr</h5></a>
+                            <p class="card-text">Roastr allows users to send friendly jabs or 'roasts' to other users and the community can then vote on who had the better roast. It is made with ReactJS, NodeJS, and uses a MongoDB database.</p>
+                            <a target="_blank" href="https://github.com/anthonyelshafei/roastr-ae" class="btn btn-primary"><img src="./assets/images/mark-github (1).png" class="github-pic">GitHub Page</a>                        </div>
+                    </div>
+                </div>
+            
+            <div class="col-md-3">
+                    <div class="card" style="width: 24rem;">
+                        <a target="_blank" href="https://imiller1007.github.io/GIPHY_project/"><img class="card-img-top" src="./assets/images/giphy.gif" alt="Card image cap"></a>
+                        <div class="card-body">
+                            <a target="_blank" href="https://imiller1007.github.io/GIPHY_project/"><h5 class="card-title">Giphy Gif Generator</h5></a>
+                            <p class="card-text">This is just one of the projects I worked on during my coding bootcamp that I had a lot of fun making. It allows users to search for gifs from Giphy's vast library using their API. Also uses JQuery and Bootstrap.</p>
+                            <a target="_blank" href="https://github.com/imiller1007/GIPHY_project" class="btn btn-primary"><img src="./assets/images/mark-github (1).png" class="github-pic">GitHub Page</a>                        </div>
+                    </div>
+            </div>
+
+            <div class="col-md-2"></div>
+        </div>
+
+    </div>
+
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script type="text/javascript" src="./assets/logic/particles.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script>
+    var clipboard = new ClipboardJS('.btn');
+        clipboard.on('success', function(e) {
+            console.log(e);
+            $(".btn").text("Copied!")
+            
+            setTimeout(function(){ $(".btn").text("ianmillerwd@yahoo.com") }, 2000);
+            
+        });
+        clipboard.on('error', function(e) {
+            console.log(e);
+        });
+</script>
+</body>
+</html>

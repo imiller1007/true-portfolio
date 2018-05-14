@@ -1,0 +1,75 @@
+body{
+    background: -moz-linear-gradient(top, #000000 0%, #000000 28%, #4a5472 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #000000 0%,#000000 28%,#4a5472 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #000000 0%,#000000 28%,#4a5472 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#4a5472',GradientType=0 );
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg-light {
+    background-color: black!important;
+    margin-left: 70px;
+}
+
+.nav-link {
+    color: white!important;
+    font-family: abel!important;
+    font-size: 25px!important;
+    padding-right: 20px!important;
+}
+
+.nav-link:hover {
+    color: red!important;
+}
+
+.col-md-4 {
+    padding: 200px;
+    position: relative;
+    z-index: 9;
+}
+
+.bio {
+    font-family: abel;
+    color: white;
+    font-size: 190%;
+}
+
+#header {
+    font-size: 500%;
+}
+
+#mypic {
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+}
+
+#contact-side {
+    margin-left: 1000px;
+    
+}
+
+#gitlink {
+    color: white;
+    text-decoration: underline;
+}
+
+#gitlink:hover {
+    color: red;
+}
+
+.btn {
+    margin-top: 15px;
+    color: white;
+    font-family: abel;
+    background-color: black;
+    font-size: 20px;
+}
+
+.btn:hover {
+    color: red;
+}
+

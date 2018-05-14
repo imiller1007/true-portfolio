@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Lobster|Teko" rel="stylesheet">    
+    <link rel="stylesheet" href="./assets/style/index.css">
+    <link rel="stylesheet" href="./assets/style/particles.css">
+    <link rel="icon" href="assets/images/newlogo-hovered.png">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <title>Ian Miller | Full Stack Developer</title>
+</head>
+<body>
+
+<!--Nav Bar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+    <a class="navbar-brand" href="./index.html"><img src="./assets/images/newlogo.png" onmouseover="this.src='./assets/images/newlogo-hovered.png'" onmouseout="this.src='./assets/images/newlogo.png'" alt="my logo" width="75px" height="75px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./portfolio.html">Portfolio</a>
+            </li>
+            
+            <li class="nav-item" id="contact-side">
+              <a class="nav-link" target="_blank" href="https://github.com/imiller1007"><img src="assets/images/mark-github (1).png" id="ghcontact" onmouseover="this.src='./assets/images/mark-github (1)-hovered.png'" onmouseout="this.src='assets/images/mark-github (1).png'" width="50px" height="50px"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/ian-miller-webdeveloper/"><img src="assets/images/linkedin-white.png" id="licontact" onmouseover="this.src='assets/images/linkedin-white-hovered.png'" onmouseout="this.src='assets/images/linkedin-white.png'" width="50px" height="50px"></a>
+            </li>
+            <li class="nav-item">
+                <button class="btn" data-clipboard-text="ianmillerwd@yahoo.com">
+                    ianmillerwd@yahoo.com
+                </button>
+            </li>
+          </ul>
+    </div>
+</nav>
+
+<!--Container-->
+      <div class="container-fluid">
+<!--Full Stack Banner-->
+        <div class="row" id="particles-js">
+          <div class="col-md-6" id="sideA">
+              <h1 class="fs-header" id="saHeader">&lt;Front End&gt;</h1>
+              <h3>HTML</h3>
+              <h3>CSS</h3>
+              <h3>Javascript</h3>
+              <h3>J Query</h3>
+              <h3>Handlebars</h3>
+          </div>
+          <div class="col-md-6" id="sideB">
+              <h1 class="fs-header" id="sbHeader">{Back End}</h1>
+              <h3>Node.JS</h3>
+              <h3>SQL</h3>
+              <h3>MongoDB</h3>
+              <h3>React</h3>
+          </div>
+        </div>
+
+<!--My Banner-->
+        <div class="row">
+          <div class="col-md-12" id="myBanner">
+            <h1>Ian Miller</h1>
+            <h1 id="ucla">UCLA Certified Full-Stack Developer</h1>
+          </div>
+        </div>
+
+<!--Banner Buttons-->
+        <div class="row">
+          
+          <div class="col-md-12" id="bannerButtons">
+            <a href="./about.html" class="BUTTON_XEE">About Me</a>
+            <a href="./portfolio.html" class="BUTTON_XEE">My Latest Work</a>
+          </div>
+          
+      </div>
+
+        <div class="row">
+          <div class="col-md-12" id="emptydiv">
+            <h1>EMPTY SPACE</h1>
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12" id="footer">
+              <h4>2018 Ian Miller</h4>
+            </div>
+          </div>
+
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script type="text/javascript" src="./assets/logic/particles.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script>
+    var clipboard = new ClipboardJS('.btn');
+        clipboard.on('success', function(e) {
+            console.log(e);
+            $(".btn").text("Copied!")
+            
+            setTimeout(function(){ $(".btn").text("ianmillerwd@yahoo.com") }, 2000);
+            
+        });
+        clipboard.on('error', function(e) {
+            console.log(e);
+        });
+</script>
+</body>
+</html>
