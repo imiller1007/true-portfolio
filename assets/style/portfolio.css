@@ -73,15 +73,16 @@ a:hover{
     text-decoration: none;
 }
 
-.btn {
+#emailbutton {
     margin-top: 15px;
     color: white;
     font-family: abel;
     background-color: black;
     font-size: 20px;
+    /* border: none; */
 }
 
-.btn:hover {
+#emailbutton:hover {
     color: red;
 }
 

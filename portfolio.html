@@ -35,7 +35,7 @@
                   <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/ian-miller-webdeveloper/"><img src="assets/images/linkedin-white.png" id="licontact" onmouseover="this.src='assets/images/linkedin-white-hovered.png'" onmouseout="this.src='assets/images/linkedin-white.png'" width="50px" height="50px"></a>
                 </li>
                 <li class="nav-item">
-                    <button class="btn" data-clipboard-text="ianmillerwd@yahoo.com">
+                    <button class="btn" id="emailbutton" data-clipboard-text="ianmillerwd@yahoo.com">
                         ianmillerwd@yahoo.com
                     </button>
                 </li>
@@ -89,12 +89,12 @@
 <script type="text/javascript" src="./assets/logic/particles.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
 <script>
-    var clipboard = new ClipboardJS('.btn');
+    var clipboard = new ClipboardJS('#emailbutton');
         clipboard.on('success', function(e) {
             console.log(e);
-            $(".btn").text("Copied!")
+            $("#emailbutton").text("Copied!")
             
-            setTimeout(function(){ $(".btn").text("ianmillerwd@yahoo.com") }, 2000);
+            setTimeout(function(){ $("#emailbutton").text("ianmillerwd@yahoo.com") }, 2000);
             
         });
         clipboard.on('error', function(e) {
