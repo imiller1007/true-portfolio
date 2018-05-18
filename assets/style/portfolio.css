@@ -11,7 +11,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 
 .bg-light {
     background-color: black!important;
-    margin-left: 70px;
+    
 }
 
 .nav-link {
@@ -25,9 +25,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
     color: red!important;
 }
 
-#contact-side {
-    margin-left: 1000px;
-}
+
 
 .card-body {
     background-color: black;
@@ -42,12 +40,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
     color: white;
 }
 
-.row {
+/* .row {
     margin-top: 100px;
-}
+} */
 
-.col-md-3 {
-    position: relative;
+.col-lg-4 {
+    margin-top: 200px;
     z-index: 10;
 }
 
@@ -86,4 +84,11 @@ a:hover{
     color: red;
 }
 
+@media screen and (max-width: 991px) {
+   .col-lg-4{
+       margin-top: 50px;
+   }
+   
+ }
+ 
 

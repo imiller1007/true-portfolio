@@ -1,10 +1,10 @@
 body{
-    background-color: black;
+    background-color: white;
 }
 
 .bg-light {
     background-color: black!important;
-    margin-left: 70px;
+    
 }
 
 .nav-link {
@@ -132,9 +132,6 @@ h1{
     font-family: abel;
 }
 
-#contact-side {
-    margin-left: 1000px;
-}
 
 .btn {
     margin-top: 15px;
@@ -147,3 +144,4 @@ h1{
 .btn:hover {
     color: red;
 }
+

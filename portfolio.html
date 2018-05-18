@@ -12,46 +12,48 @@
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <title>Portfolio of Ian Miller</title>
 </head>
-<body>
-    <!--Nav Bar-->
+<body >
+<!--Nav Bar-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
-        <a class="navbar-brand" href="./index.html"><img src="./assets/images/newlogo.png" onmouseover="this.src='./assets/images/newlogo-hovered.png'" onmouseout="this.src='./assets/images/newlogo.png'" alt="my logo" width="75px" height="75px"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="./about.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                </li>
-                
-                <li class="nav-item" id="contact-side">
-                  <a class="nav-link" target="_blank" href="https://github.com/imiller1007"><img src="assets/images/mark-github (1).png" id="ghcontact" onmouseover="this.src='./assets/images/mark-github (1)-hovered.png'" onmouseout="this.src='assets/images/mark-github (1).png'" width="50px" height="50px"></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/ian-miller-webdeveloper/"><img src="assets/images/linkedin-white.png" id="licontact" onmouseover="this.src='assets/images/linkedin-white-hovered.png'" onmouseout="this.src='assets/images/linkedin-white.png'" width="50px" height="50px"></a>
-                </li>
-                <li class="nav-item">
-                    <button class="btn" id="emailbutton" data-clipboard-text="ianmillerwd@yahoo.com">
-                        ianmillerwd@yahoo.com
-                    </button>
-                </li>
-              </ul>
-        </div>
-    </nav>
+    <a class="navbar-brand" href="./index.html"><img src="./assets/images/newlogo.png" onmouseover="this.src='./assets/images/newlogo-hovered.png'" onmouseout="this.src='./assets/images/newlogo.png'" alt="my logo" width="75px" height="75px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./portfolio.html">Portfolio</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item" id="contact-side">
+              <a class="nav-link" target="_blank" href="https://github.com/imiller1007"><img src="assets/images/mark-github (1).png" id="ghcontact" onmouseover="this.src='./assets/images/mark-github (1)-hovered.png'" onmouseout="this.src='assets/images/mark-github (1).png'" width="50px" height="50px"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/ian-miller-webdeveloper/"><img src="assets/images/linkedin-white.png" id="licontact" onmouseover="this.src='assets/images/linkedin-white-hovered.png'" onmouseout="this.src='assets/images/linkedin-white.png'" width="50px" height="50px"></a>
+            </li>
+            <li class="nav-item">
+                <button class="btn" id="emailbutton" data-clipboard-text="contact.ianmiller@gmail.com">
+                    contact.ianmiller@gmail.com
+                </button>
+            </li>
+        </ul>
+    </div>
+</nav>
+
 
     <!--Container-->
-    <div class="container-fluid">
+    <div class="container-fluid" >
 
         <div class="row" id="particles-js">
 
-            <div class="col-md-1"></div>
-            <div class="col-md-3">
+            
+            <div class="col-lg-4">
                 <div class="card" style="width: 24rem;">
-                    <a target="_blank" href="https://kevinthomaskane.github.io/CHARToppers"><img class="card-img-top" src="https://portfolio-ktk.herokuapp.com/toppers.gif" alt="Card image cap"></a>
+                    <a target="_blank" href="https://kevinthomaskane.github.io/CHARToppers"><img class="card-img-top" src="./assets/images/toppers.gif" alt="Card image cap"></a>
                     <div class="card-body">
                         <a target="_blank" href="https://kevinthomaskane.github.io/CHARToppers"><h5 class="card-title">CHARToppers</h5></a>
                         <p class="card-text">Search the top charts and add songs to your personal favorites, look up lyrics, and share with the community. Uses 3 different APIs, Javascript, JQuery, Ajax, Materialize, local storage, and Firebase.</p>
@@ -60,7 +62,7 @@
                 </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-lg-4">
                     <div class="card" style="width: 24rem;">
                         <a target="_blank" href="https://roastr-app.herokuapp.com/"><img class="card-img-top" src="https://media.giphy.com/media/3nb60gI3xv4LppSOjy/giphy.gif" alt="Card image cap"></a>
                         <div class="card-body">
@@ -70,7 +72,7 @@
                     </div>
                 </div>
             
-            <div class="col-md-3">
+            <div class="col-lg-4">
                     <div class="card" style="width: 24rem;">
                         <a target="_blank" href="https://imiller1007.github.io/GIPHY_project/"><img class="card-img-top" src="./assets/images/giphy.gif" alt="Card image cap"></a>
                         <div class="card-body">
@@ -80,7 +82,7 @@
                     </div>
             </div>
 
-            <div class="col-md-2"></div>
+            
         </div>
 
     </div>
