@@ -34,7 +34,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 .bio {
     font-family: abel;
     color: white;
-    font-size: 190%;
+    font-size: 100%;
 }
 
 #header {
