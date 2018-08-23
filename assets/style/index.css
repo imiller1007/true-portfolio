@@ -76,15 +76,16 @@ h3 {
     background-color: black;
 }
 
-#ucla{
+/* #ucla{
     text-decoration: underline;
-}
+} */
 
 h1{
     font-size: 60px;
 }
 
 #bannerButtons{
+    margin-top: 5px;
     text-align: center;
     position: relative;
     z-index: 10;
